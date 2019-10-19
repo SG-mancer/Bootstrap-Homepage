@@ -1,0 +1,12 @@
+{
+  "name": "bootstrap-homepage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/t3liph0n3/Bootstrap-Homepage.git",
+  "author": "t3liph0n3 <hyperstn@outlook.jp>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  }
+}
