@@ -7,6 +7,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "boostrap": "^2.0.0"
+    "boostrap": "^3.3.7"
   }
 }
