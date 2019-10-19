@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Shane's homepage using bootstrap</title>
+
+        <!-- Bootstrap -->
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script>
+          $(document).ready(function(){
+            $(".nav-tabs a").click(function(){
+                $(this).tab('show');
+            });
+          });
+        </script>
+  </head>
+  <body>
+
+    <ul class="nav nav-tabs" data-tab>
+      <li role="presentation"><a href="#timetable-tab">Timetable</a></li>
+      <li role="presentation" class="active"><a href="#goals-tab">Goals</a></li>
+      <li role="presentation"><a href="#links-tab">Links</a></li>
+    </ul>
+
+    <div class="tab-content">
+
+
+      <div id="goals-tab" class="tab-pane fadein active">
+      <!-- Goals,
+      this tab is where I have a list of my goals
+      -->
+        <img src="mascot.png" alt="Mascot"  height=400pt align="left"/>
+        <h3>Goals</h3>
+        <p>This is a list of my current goals</p>
+
+        <div class="row">
+          <div class="col-xs-10 col-md-5">
+          <ul>
+            <li>Learn Front End Web Developer
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" style="width: 27%">
+                  <span class="sr-only">27% (127/677)</span>127 / 677 hours
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" style="width: 88%">
+                  <span class="sr-only">266 / 301 tasks</span>266 / 301 tasks
+                </div>
+              </div>
+              <ul>
+                <li> Finish Front End Development Certification on <a href="https://www.freecodecamp.com/map-aside#collapseFront-End-Development-Certification" target="blank">FreeCodeCamp.com</a></li>
+                <li> Make some projects, including this page. </li>
+              </ul>
+            </li>
+
+            <br/>
+            <li>Jog a 100km a month in May, June, July, August
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger" style="width: 1%"></div>
+              </div>
+            </li>
+
+            <br/>
+            <li>Improve my Japanese
+              <div class="progress">
+                <div class="progress-bar progress-bar-info" style="width: 1%"></div>
+              </div>
+            </li>
+            <br/>
+          </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="timetable-tab" class="tab-pane fade">
+      <!-- Timetable,
+      A timetable of my week.
+      -->
+      <h3 align=center>Timetable</h3>
+        <div class="row">
+          <div class="col-xs-3 col-md-2 bg-warning">
+            <ul>
+              <li><span class="glyphicon glyphicon-bed" aria-hidden="true"></span> sleep</li>
+              <li><span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span> eat</li>
+              <li><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span> commute</li>
+              <li><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> work</li>
+              <li><span class="glyphicon glyphicon-book" aria-hidden="true"></span> class</li>
+              <li><span class="glyphicon glyphicon-erase" aria-hidden="true"></span> homework</li>
+              <li><span class="glyphicon glyphicon-console" aria-hidden="true"></span> program</li>
+              <li><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> japanese</li>
+              <li><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> revision</li>
+              <li><span class="glyphicon glyphicon-road" aria-hidden="true"></span> workout</li>
+              <li><span class="glyphicon glyphicon-glass" aria-hidden="true"></span> drinks</li>
+              <li><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> shopping</li>
+              <li><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> ??</li>
+              <li><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> ??</li>
+            </ul>
+          </div>
+          <div class="col-xs-7 col-md-9">
+            <div class="row bg-success">
+              <div class="col-xs-2 col-md-2">
+                <span class="glyphicon glyphicon-bed" aria-hidden="true"></span>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <span class="glyphicon glyphicon-bed" aria-hidden="true"></span>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <span class="glyphicon glyphicon-bed" aria-hidden="true"></span>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <span class="glyphicon glyphicon-bed" aria-hidden="true"></span>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <span class="glyphicon glyphicon-bed" aria-hidden="true"></span>
+              </div>
+              <div class="col-xs-1 col-md-1">
+                <span class="glyphicon glyphicon-bed" aria-hidden="true"></span>
+              </div>
+              <div class="col-xs-1 col-md-1">
+                <span class="glyphicon glyphicon-bed" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                x
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                x
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                x
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                x
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                x
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                x
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                x
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                x
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                x
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-2 col-md-2">
+                X
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+              <div class="col-xs-1 col-md-1">
+                y
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="links-tab" class="tab-pane fade">
+      <!-- Links,
+      this where I have a table of rarely used links.
+      -->
+        <h3>links</h3>
+        <ul>
+          <li><a href="http://getbootstrap.com/getting-started/">Bootstrap getting started</a></li>
+          <li><a href="https://web.archive.org/web/20030810043527/http://yallara.cs.rmit.edu.au/~shgeorge/about/index.html">my rmit website 2003</a></li>
+
+        </ul>
+      </div>
+
+    </div>
+
+  </body>
+</html>
